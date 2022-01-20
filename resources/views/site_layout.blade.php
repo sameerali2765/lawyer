@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="{{asset('assets/css/open-iconic-bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/animate.css')}}">
         
+        <link rel="stylesheet" href="{{asset('assets/scss/custom.scss')}}">
         <link rel="stylesheet" href="{{asset('assets/css/owl.carousel.min.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/owl.theme.default.min.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}">
@@ -194,6 +195,7 @@
   <script src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
   <script src="{{asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
   <script src="{{asset('assets/js/aos.js')}}"></script>
+  <script src="{{asset('assets/js/custom.js')}}"></script>
   <script src="{{asset('assets/js/jquery.animateNumber.min.js')}}"></script>
   <script src="{{asset('assets/js/bootstrap-datepicker.js')}}"></script>
   <script src="{{asset('assets/js/jquery.timepicker.min.js')}}"></script>
