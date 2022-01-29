@@ -27,6 +27,15 @@ Route::get('/contact', function () {
 Route::get('/attorney', function () {
     return view('attorney');
 });
-Route::get('/login&signup', function () {
-    return view('login&signup');
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/signup', function () {
+    return view('signup');
+});
+Route::get('/lawyer_reg', function () {
+    return view('Lawyer_reg');
+});
+Route::get('/law_reg_sec', function () {
+    return view('Law_reg_sec');
 });
