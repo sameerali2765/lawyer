@@ -10,7 +10,7 @@
 
           <div class="col-md-7 col-sm-12 text-center ftco-animate">
               <h1 class="mb-3 mt-5 bread">Attorneys</h1>
-              <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Attorneys</span></p>
+              <p class="breadcrumbs"><span class="mr-2"><a href="index">Home</a></span> <span>Attorneys</span></p>
           </div>
 
         </div>
@@ -31,7 +31,7 @@
               <div class="row">
                   <div class="col-md-6 col-lg-3 ftco-animate">
                       <div class="staff">
-                          <div class="img" style="background-image: url(images/person_1.jpg);"></div>
+                          <div class="img" style="background-image:url({{asset('assets/images/person_1.jpg')}});"></div>
                           <div class="text pt-4">
                               <h3>David Smith</h3>
                               <span class="position mb-2">Family Lawyer</span>
@@ -47,7 +47,7 @@
                   </div>
                   <div class="col-md-6 col-lg-3 ftco-animate">
                       <div class="staff">
-                          <div class="img" style="background-image: url(images/person_2.jpg);"></div>
+                          <div class="img" style="background-image:url({{asset('assets/images/person_2.jpg')}});"></div>
                           <div class="text pt-4">
                               <h3>David Smith</h3>
                               <span class="position mb-2">Consumer Lawyer</span>
@@ -63,7 +63,7 @@
                   </div>
                   <div class="col-md-6 col-lg-3 ftco-animate">
                       <div class="staff">
-                          <div class="img" style="background-image: url(images/person_3.jpg);"></div>
+                          <div class="img" style="background-image:url({{asset('assets/images/person_3.jpg')}});"></div>
                           <div class="text pt-4">
                               <h3>David Smith</h3>
                               <span class="position mb-2">Criminal Lawyer</span>
@@ -79,7 +79,7 @@
                   </div>
                   <div class="col-md-6 col-lg-3 ftco-animate">
                       <div class="staff">
-                          <div class="img" style="background-image: url(images/person_4.jpg);"></div>
+                          <div class="img" style="background-image:url({{asset('assets/images/person_4.jpg')}});"></div>
                           <div class="text pt-4">
                               <h3>David Smith</h3>
                               <span class="position mb-2">Business Lawyer</span>
@@ -95,7 +95,7 @@
                   </div>
                   <div class="col-md-6 col-lg-3 ftco-animate">
                       <div class="staff">
-                          <div class="img" style="background-image: url(images/staff-1.jpg);"></div>
+                          <div class="img" style="background-image:url({{asset('assets/images/staff-1.jpg')}});"></div>
                           <div class="text pt-4">
                               <h3>David Smith</h3>
                               <span class="position mb-2">Family Lawyer</span>
@@ -111,7 +111,7 @@
                   </div>
                   <div class="col-md-6 col-lg-3 ftco-animate">
                       <div class="staff">
-                          <div class="img" style="background-image: url(images/staff-2.jpg);"></div>
+                          <div class="img" style="background-image:url({{asset('assets/images/staff-2.jpg')}});"></div>
                           <div class="text pt-4">
                               <h3>David Smith</h3>
                               <span class="position mb-2">Consumer Lawyer</span>
@@ -127,7 +127,7 @@
                   </div>
                   <div class="col-md-6 col-lg-3 ftco-animate">
                       <div class="staff">
-                          <div class="img" style="background-image: url(images/staff-3.jpg);"></div>
+                          <div class="img" style="background-image:url({{asset('assets/images/staff-3.jpg')}});"></div>
                           <div class="text pt-4">
                               <h3>David Smith</h3>
                               <span class="position mb-2">Criminal Lawyer</span>
@@ -143,7 +143,7 @@
                   </div>
                   <div class="col-md-6 col-lg-3 ftco-animate">
                       <div class="staff">
-                          <div class="img" style="background-image: url(images/staff-4.jpg);"></div>
+                          <div class="img" style="background-image:url({{asset('assets/images/staff-4.jpg')}});"></div>
                           <div class="text pt-4">
                               <h3>David Smith</h3>
                               <span class="position mb-2">Business Lawyer</span>

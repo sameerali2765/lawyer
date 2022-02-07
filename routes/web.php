@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/index', function () {
+    return view('index');
+});
+
 Route::get('/about', function () {
     return view('about');
 });
@@ -39,3 +43,6 @@ Route::get('/lawyer_reg', function () {
 Route::get('/law_reg_sec', function () {
     return view('Law_reg_sec');
 });
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
