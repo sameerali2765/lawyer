@@ -1,266 +1,223 @@
-@extends('site_layout')
-
-@section('main')
-
-<section class="home-slider js-fullheight owl-carousel">
-    <div class="slider-item js-fullheight" style="background-image:url({{asset('assets/images/bg_1.jpg')}});">
-        <div class="overlay"></div>
-      <div class="container">
-        <div class="row slider-text justify-content-center align-items-center">
-
-          <div class="col-md-7 col-sm-12 text-center ftco-animate">
-              <h1 class="mb-3 mt-5 bread">About</h1>
-              <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>About</span></p>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-      
-
-      <section class="ftco-section ftc-no-pb">
-          <div class="container">
-              <div class="row no-gutters">
-                  <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url({{asset('assets/images/about.jpg')}});">
-                      <a href="https://vimeo.com/45830194" class="icon popup-vimeo d-flex justify-content-center align-items-center">
-                          <span class="icon-play"></span>
-                      </a>
-                  </div>
-                  <div class="col-md-7 wrap-about pb-md-5 ftco-animate">
-            <div class="heading-section mb-5 pl-md-5">
-                <div class="pl-md-5 ml-md-5">
-                    <span class="subheading">Company Overview</span>
-                  <h2 class="mb-4">Learned about the Law</h2>
-              </div>
-            </div>
-            <div class="pl-md-5 ml-md-5 mb-5">
-                          <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
-                          <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-                          <p><a href="#" class="btn-custom">Learn More <span class="ion-ios-arrow-forward"></span></a></p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+@extends('layouts.website')
 
 
-      <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url({{asset('assets/images/bg_3.jpg')}});" data-stellar-background-ratio="0.5">
-      <div class="container">
-          <div class="row d-md-flex align-items-center">
-              <div class="col-lg-4">
-                  <div class="heading-section pl-md-5 heading-section-white">
-                <div class="ftco-animate">
-                    <span class="subheading">Some</span>
-                  <h2 class="mb-4">Interesting Facts</h2>
-              </div>
-            </div>
-              </div>
-              <div class="col-lg-8">
-                  <div class="row d-md-flex align-items-center">
-                <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-                  <div class="block-18 text-center">
-                    <div class="text">
-                      <strong class="number" data-number="18000">0</strong>
-                      <span>Trusted clients</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-                  <div class="block-18 text-center">
-                    <div class="text">
-                      <strong class="number" data-number="1000">0</strong>
-                      <span>Solved Cases</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-                  <div class="block-18 text-center">
-                    <div class="text">
-                      <strong class="number" data-number="1230">0</strong>
-                      <span>Awards Win</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-                  <div class="block-18 text-center">
-                    <div class="text">
-                      <strong class="number" data-number="800">0</strong>
-                      <span>Winning Case</span>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-      </div>
-      </div>
-  </section>
-
-  <section class="ftco-section ftc-no-pb">
-          <div class="container">
-              <div class="row no-gutters">
-                  <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center order-md-last" style="background-image: url({{asset('assets/images/about-2.jpg')}});">
-                  </div>
-                  <div class="col-md-7 wrap-about ftco-animate">
-            <div class="heading-section mb-5 pl-md-5">
-                <div class="pr-md-5 mr-md-5 text-md-right">
-                    <span class="subheading">Company Help Intro</span>
-                  <h2 class="mb-4">The People We Help</h2>
-              </div>
-            </div>
-            <div class="pr-md-5 pl-md-5 mr-md-5 mb-5">
-              <div class="services-wrap d-flex">
-                <div class="icon d-flex justify-content-center align-items-center">
-                      <span class="flaticon-balance"></span>
-                </div>
-                <div class="media-body pr-4 order-md-first text-md-right">
-                  <h3 class="heading">Fight for Justice</h3>
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                </div>
-              </div>
-              <div class="services-wrap d-flex">
-                <div class="icon d-flex justify-content-center align-items-center">
-                      <span class="flaticon-balance"></span>
-                </div>
-                <div class="media-body pr-4 order-md-first text-md-right">
-                  <h3 class="heading">Best Case Strategy</h3>
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                </div>
-              </div>
-              <div class="services-wrap d-flex">
-                <div class="icon d-flex justify-content-center align-items-center">
-                      <span class="flaticon-balance"></span>
-                </div>
-                <div class="media-body pr-4 order-md-first text-md-right">
-                  <h3 class="heading">Experience Attorneys</h3>
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                </div>
-              </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-  <section class="ftco-section testimony-section">
-    <div class="container">
-      <div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 heading-section ftco-animate text-center">
-            <span class="subheading">Testimony</span>
-          <h2 class="mb-4">Our satisfied customer says</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-        </div>
-      </div>
-      <div class="row ftco-animate">
-        <div class="col-md-12">
-          <div class="carousel-testimony owl-carousel">
-            <div class="item">
-              <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url({{asset('assets/images/person_1.jpg')}})">
-                  <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
-                  </span>
-                </div>
-                <div class="text">
-                  <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  <p class="name">Garreth Smith</p>
-                  <span class="position">Marketing Manager</span>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url({{asset('assets/images/person_2.jpg')}})">
-                  <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
-                  </span>
-                </div>
-                <div class="text">
-                  <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  <p class="name">Garreth Smith</p>
-                  <span class="position">Interface Designer</span>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url({{asset('assets/images/person_3.jpg')}})">
-                  <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
-                  </span>
-                </div>
-                <div class="text">
-                  <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  <p class="name">Garreth Smith</p>
-                  <span class="position">UI Designer</span>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url({{asset('assets/images/person_1.jpg')}})">
-                  <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
-                  </span>
-                </div>
-                <div class="text">
-                  <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  <p class="name">Garreth Smith</p>
-                  <span class="position">Web Developer</span>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url({{asset('assets/images/person_1.jpg')}})">
-                  <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
-                  </span>
-                </div>
-                <div class="text">
-                  <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  <p class="name">Garreth Smith</p>
-                  <span class="position">System Analyst</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-      <section class="ftco-section ftc-no-pb ftc-no-pt bg-light">
-          <div class="container">
-              <div class="row no-gutters">
-                  <div class="col-md-5" id="map">
-                  </div>
-                  <div class="col-md-7 wrap-about pb-md-5 ftco-animate">
-            <div class="heading-section mb-md-5 pl-md-5 mt-5 pt-3">
-                <div class="pl-md-5 ml-md-5">
-                    <span class="subheading">Contact Information</span>
-                  <h2 class="mb-4">You may Contact Us here</h2>
-              </div>
-            </div>
-            <div class="pl-md-5 ml-md-5">
-                <div class="info-contact mb-5">
-                    <p><span>Phone:</span> <span>(00) 123 - 456 - 789</span></p>
-                    <p><span>Fax:</span> <span>(00) 123 - 456 - 789</span></p>
-                    <p><span>E-Mail:</span> <span><a href="#">info@emial.com</a></span></p>
-                </div>
-                <div class="info-contact mb-5">
-                    <h3>Address Information</h3>
-                    <p><span>Address</span> <span> 203 Fake St. Mountain View, San Francisco, California, USA</span></p>
-                    <p><span>Fax:</span> <span>(00) 123 - 456 - 789</span></p>
-                    <p><span>E-Mail:</span> <span><a href="#">info@emial.com</a></span></p>
-                </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-
-
+@section('content')
+<div class="container-xl">
+<div class="row justify-content-center">
+<div class="col-md-5 heading-section text-center mb-4" data-aos="fade-up" data-aos-duration="1000">
+<span class="subheading" >About Us</span>
+<h2 class="mb-4">80 Years Of Experience In Legal Solution</h2>
+</div>
+<div class="col-md-8 text-center mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+</p>
+</div>
+<div class="col-md-10">
+<div class="video-image img d-flex align-items-center justify-content-center rounded" style="background-image:url(images/xabout.jpg.pagespeed.ic.WKDvjFj0To.jpg)" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+<a href="#" class="icon d-flex align-items-center justify-content-center"><span class="fa fa-play"></span></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="ftco-appointment ftco-section img" style="background-image:url(images/xbg_4.jpg.pagespeed.ic.z8E4DWrLCr.jpg)">
+<div class="overlay"></div>
+<div class="container-xl">
+<div class="row">
+<div class="col-md-6 d-flex align-items-center order-lg-last pl-lg-5">
+<div class="heading-section heading-section-white" data-aos="fade-up">
+<span class="subheading">Our Performance</span>
+<h2 class="mb-3">We Have Great Results</h2>
+<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+<div class="row mt-md-5">
+<div class="col-lg-12">
+<div class="services d-flex w-100">
+<div class="icon icon-2 d-flex align-items-center justify-content-center">
+<span class="flaticon-law"></span>
+</div>
+<div class="text pl-3">
+<h2>Get Legal Advices</h2>
+<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-12">
+<div class="services d-flex w-100">
+<div class="icon icon-2 d-flex align-items-center justify-content-center">
+<span class="flaticon-law"></span>
+</div>
+<div class="text pl-3">
+<h2>We Protect Justice &amp; Fight Injustice</h2>
+<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-12">
+<div class="services d-flex w-100">
+<div class="icon icon-2 d-flex align-items-center justify-content-center">
+<span class="flaticon-law"></span>
+</div>
+<div class="text pl-3">
+<h2>Best Attorneys team</h2>
+<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6 d-flex align-items-center">
+<form action="#" class="appointment" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+<span class="subheading">Drop A Message</span>
+<h2 class="mb-4 appointment-head">Free Case Evaluation</h2>
+<div class="row">
+<div class="col-md-12 col-lg-6">
+<div class="form-group">
+<label for="name">Your Full Name</label>
+<input type="text" class="form-control" placeholder="Your Full Name">
+</div>
+</div>
+<div class="col-md-12 col-lg-6">
+<div class="form-group">
+<label for="email">Email Address</label>
+<input type="text" class="form-control" placeholder="Email">
+</div>
+</div>
+<div class="col-md-12">
+<div class="form-group">
+<label for="subject">Select Subject</label>
+<div class="form-field">
+<div class="select-wrap">
+<div class="icon"><span class="fa fa-chevron-down"></span></div>
+<select name="" id="" class="form-control">
+<option value="">Practice Areas</option>
+<option value="">Business Law</option>
+<option value="">Criminal Law</option>
+<option value="">Family Law</option>
+<option value="">Judicial Law</option>
+<option value="">Personal Injury</option>
+<option value="">Real Estate Law</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="form-group">
+<label for="name">Message</label>
+<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+</div>
+</div>
+<div class="col-md-12">
+<input type="submit" value="Send message" class="btn btn-primary py-3 px-4 rounded">
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<section class="ftco-section testimony-section bg-light">
+<div class="container-xl">
+<div class="row justify-content-center pb-4">
+<div class="col-md-7 text-center heading-section" data-aos="fade-up" data-aos-duration="1000">
+<span class="subheading">Testimonial</span>
+<h2 class="mb-3">Happy Clients</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+<div class="carousel-testimony">
+<div class="item">
+<div class="testimony-wrap">
+<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
+<div class="text">
+<p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+<div class="d-flex align-items-center">
+<div class="user-img" style="background-image:url(images/xperson_1.jpg.pagespeed.ic.P4pHl6glbj.jpg)"></div>
+<div class="pl-3 tx">
+<p class="name">Roger Scott</p>
+<span class="position">Marketing Manager</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="testimony-wrap">
+<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
+<div class="text">
+<p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+<div class="d-flex align-items-center">
+<div class="user-img" style="background-image:url(images/xperson_2.jpg.pagespeed.ic.yyrmjBH91b.jpg)"></div>
+<div class="pl-3 tx">
+<p class="name">Roger Scott</p>
+<span class="position">Marketing Manager</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="testimony-wrap">
+<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
+<div class="text">
+<p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+<div class="d-flex align-items-center">
+<div class="user-img" style="background-image:url(images/person_3.jpg)"></div>
+<div class="pl-3 tx">
+<p class="name">Roger Scott</p>
+<span class="position">Marketing Manager</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="testimony-wrap">
+<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
+<div class="text">
+<p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+<div class="d-flex align-items-center">
+<div class="user-img" style="background-image:url(images/xperson_1.jpg.pagespeed.ic.P4pHl6glbj.jpg)"></div>
+<div class="pl-3 tx">
+<p class="name">Roger Scott</p>
+<span class="position">Marketing Manager</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="testimony-wrap">
+<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
+<div class="text">
+<p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+<div class="d-flex align-items-center">
+<div class="user-img" style="background-image:url(images/xperson_2.jpg.pagespeed.ic.yyrmjBH91b.jpg)"></div>
+<div class="pl-3 tx">
+<p class="name">Roger Scott</p>
+<span class="position">Marketing Manager</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="ftco-intro img" style="background-image:url(images/xbg_4.jpg.pagespeed.ic.z8E4DWrLCr.jpg)">
+<div class="overlay"></div>
+<div class="container-xl">
+<div class="row justify-content-center">
+<div class="col-md-12 heading-section heading-section-white text-center">
+<h2 class="mb-4">Need Legal Advicer?</h2>
+<p class="mb-0"><a href="#" class="btn btn-black">0-1230-456-7890</a> <a href="#" class="btn btn-white"><span class="__cf_email__" data-cfemail="92ebfde7e0f7fff3fbfed2f7fff3fbfebcf1fdff">[email&#160;protected]</span></a></p>
+</div>
+</div>
+</div>
+</section>
 
 @endsection
