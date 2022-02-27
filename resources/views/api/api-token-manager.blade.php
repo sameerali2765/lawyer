@@ -140,7 +140,11 @@
                 {{ __('Cancel') }}
             </x-jet-secondary-button>
 
+<<<<<<< HEAD
             <x-jet-button class="ml-2" wire:click="updateApiToken" wire:loading.attr="disabled">
+=======
+            <x-jet-button class="ml-3" wire:click="updateApiToken" wire:loading.attr="disabled">
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe
                 {{ __('Save') }}
             </x-jet-button>
         </x-slot>
@@ -161,7 +165,11 @@
                 {{ __('Cancel') }}
             </x-jet-secondary-button>
 
+<<<<<<< HEAD
             <x-jet-danger-button class="ml-2" wire:click="deleteApiToken" wire:loading.attr="disabled">
+=======
+            <x-jet-danger-button class="ml-3" wire:click="deleteApiToken" wire:loading.attr="disabled">
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe
                 {{ __('Delete') }}
             </x-jet-danger-button>
         </x-slot>

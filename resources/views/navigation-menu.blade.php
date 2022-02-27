@@ -4,7 +4,11 @@
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
+<<<<<<< HEAD
                 <div class="flex-shrink-0 flex items-center">
+=======
+                <div class="shrink-0 flex items-center">
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe
                     <a href="{{ route('dashboard') }}">
                         <x-jet-application-mark class="block h-9 w-auto" />
                     </a>
@@ -147,11 +151,19 @@
         <div class="pt-4 pb-1 border-t border-gray-200">
             <div class="flex items-center px-4">
                 @if (Laravel\Jetstream\Jetstream::managesProfilePhotos())
+<<<<<<< HEAD
                     <div class="flex-shrink-0 mr-3">
                         <img class="h-10 w-10 rounded-full object-cover" src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}" />
                     </div>
                 @endif
                     
+=======
+                    <div class="shrink-0 mr-3">
+                        <img class="h-10 w-10 rounded-full object-cover" src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}" />
+                    </div>
+                @endif
+
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe
                 <div>
                     <div class="font-medium text-base text-gray-800">{{ Auth::user()->name }}</div>
                     <div class="font-medium text-sm text-gray-500">{{ Auth::user()->email }}</div>

@@ -62,6 +62,7 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+<<<<<<< HEAD
 
     public function profile()
     {
@@ -72,4 +73,6 @@ class User extends Authenticatable
     {
         return $this->hasMany(Appointment::class);
     }
+=======
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe
 }

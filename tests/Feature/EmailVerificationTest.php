@@ -21,9 +21,13 @@ class EmailVerificationTest extends TestCase
             return $this->markTestSkipped('Email verification not enabled.');
         }
 
+<<<<<<< HEAD
         $user = User::factory()->withPersonalTeam()->create([
             'email_verified_at' => null,
         ]);
+=======
+        $user = User::factory()->withPersonalTeam()->unverified()->create();
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe
 
         $response = $this->actingAs($user)->get('/email/verify');
 
@@ -38,9 +42,13 @@ class EmailVerificationTest extends TestCase
 
         Event::fake();
 
+<<<<<<< HEAD
         $user = User::factory()->create([
             'email_verified_at' => null,
         ]);
+=======
+        $user = User::factory()->unverified()->create();
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe
 
         $verificationUrl = URL::temporarySignedRoute(
             'verification.verify',
@@ -62,9 +70,13 @@ class EmailVerificationTest extends TestCase
             return $this->markTestSkipped('Email verification not enabled.');
         }
 
+<<<<<<< HEAD
         $user = User::factory()->create([
             'email_verified_at' => null,
         ]);
+=======
+        $user = User::factory()->unverified()->create();
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe
 
         $verificationUrl = URL::temporarySignedRoute(
             'verification.verify',

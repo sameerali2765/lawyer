@@ -22,9 +22,19 @@ use App\Http\Controllers\UserController;
 Route::get('/', function () {
     return view('index');
 });
+<<<<<<< HEAD
   
 Route::get('demo',function(){
     return view('new');
+=======
+
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/about', function () {
+    return view('about');
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe
 });
 
 
@@ -35,6 +45,7 @@ Route::get('/checklogin',function(){
 Route::get('/CheckRegsiter',function(){
     return view('regsitercheck');
 });
+<<<<<<< HEAD
 
 
 //client Controller
@@ -88,6 +99,11 @@ Route::get('/showlawyer',[UserController::class,'index']);
 
 
 
+=======
+Route::get('/law_reg_sec', function () {
+    return view('Law_reg_sec');
+});
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');

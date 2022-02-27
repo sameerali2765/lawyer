@@ -1,8 +1,12 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
+<<<<<<< HEAD
     mode: 'jit',
     purge: [
+=======
+    content: [
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './vendor/laravel/jetstream/**/*.blade.php',
         './storage/framework/views/*.php',

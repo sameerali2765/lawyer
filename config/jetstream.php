@@ -32,6 +32,22 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
+=======
+    | Jetstream Guard
+    |--------------------------------------------------------------------------
+    |
+    | Here you may specify the authentication guard Jetstream will use while
+    | authenticating users. This value should correspond with one of your
+    | guards that is already present in your "auth" configuration file.
+    |
+    */
+
+    'guard' => 'sanctum',
+
+    /*
+    |--------------------------------------------------------------------------
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe
     | Features
     |--------------------------------------------------------------------------
     |

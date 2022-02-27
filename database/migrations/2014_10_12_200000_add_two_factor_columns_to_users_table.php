@@ -4,7 +4,11 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
+<<<<<<< HEAD
 class AddTwoFactorColumnsToUsersTable extends Migration
+=======
+return new class extends Migration
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe
 {
     /**
      * Run the migrations.
@@ -35,4 +39,8 @@ class AddTwoFactorColumnsToUsersTable extends Migration
             $table->dropColumn('two_factor_secret', 'two_factor_recovery_codes');
         });
     }
+<<<<<<< HEAD
 }
+=======
+};
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe

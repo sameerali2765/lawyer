@@ -13,9 +13,13 @@ class PasswordConfirmationTest extends TestCase
 
     public function test_confirm_password_screen_can_be_rendered()
     {
+<<<<<<< HEAD
         $user = Features::hasTeamFeatures()
                         ? User::factory()->withPersonalTeam()->create()
                         : User::factory()->create();
+=======
+        $user = User::factory()->withPersonalTeam()->create();
+>>>>>>> 7944cc807be33acfc79da641d4a5e14aa307f9fe
 
         $response = $this->actingAs($user)->get('/user/confirm-password');
 
